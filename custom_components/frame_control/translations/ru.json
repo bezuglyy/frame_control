@@ -1,0 +1,56 @@
+{
+  "title": "Frame Control",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Frame Control",
+        "description": "Управление рамками (Redmi Smart Display 8) и телевизорами (Android TV) по ADB: экран, яркость, громкость, скриншоты, приложения.",
+        "data": {
+          "host": "Адрес устройства",
+          "port": "Порт ADB",
+          "device_type": "Тип устройства",
+          "enable_motion": "Блок «Датчик движения»",
+          "enable_illuminance": "Блок «Датчик освещённости»",
+          "motion_sensor": "Датчик движения (binary_sensor)",
+          "motion_timeout": "Таймаут выключения экрана (сек)",
+          "illuminance_sensor": "Датчик освещённости (sensor)",
+          "lux_min": "Мин. освещённость (lux)",
+          "lux_max": "Макс. освещённость (lux)",
+          "brightness_min": "Мин. яркость",
+          "brightness_max": "Макс. яркость",
+          "watchdog_enabled": "Watchdog IP Webcam",
+          "ipwebcam_port": "Порт IP Webcam",
+          "watchdog_interval": "Интервал проверки (сек)"
+        }
+      }
+    },
+    "error": {
+      "already_configured": "Устройство с таким адресом уже добавлено"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Настройки Frame Control",
+        "description": "Измените параметры интеграции.",
+        "data": {
+          "host": "Адрес устройства",
+          "port": "Порт ADB",
+          "device_type": "Тип устройства",
+          "enable_motion": "Блок «Датчик движения»",
+          "enable_illuminance": "Блок «Датчик освещённости»",
+          "motion_sensor": "Датчик движения (binary_sensor)",
+          "motion_timeout": "Таймаут выключения экрана (сек)",
+          "illuminance_sensor": "Датчик освещённости (sensor)",
+          "lux_min": "Мин. освещённость (lux)",
+          "lux_max": "Макс. освещённость (lux)",
+          "brightness_min": "Мин. яркость",
+          "brightness_max": "Макс. яркость",
+          "watchdog_enabled": "Watchdog IP Webcam",
+          "ipwebcam_port": "Порт IP Webcam",
+          "watchdog_interval": "Интервал проверки (сек)"
+        }
+      }
+    }
+  }
+}
