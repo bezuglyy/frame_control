@@ -1,0 +1,56 @@
+{
+  "title": "Frame Control",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Frame Control",
+        "description": "Control frames (Redmi Smart Display 8) and TVs (Android TV) over ADB: screen, brightness, volume, screenshots, apps.",
+        "data": {
+          "host": "Device address",
+          "port": "ADB port",
+          "device_type": "Device type",
+          "enable_motion": "Motion sensor block",
+          "enable_illuminance": "Illuminance sensor block",
+          "motion_sensor": "Motion sensor",
+          "motion_timeout": "Screen off timeout (s)",
+          "illuminance_sensor": "Illuminance sensor",
+          "lux_min": "Min lux",
+          "lux_max": "Max lux",
+          "brightness_min": "Min brightness",
+          "brightness_max": "Max brightness",
+          "watchdog_enabled": "IP Webcam watchdog",
+          "ipwebcam_port": "IP Webcam port",
+          "watchdog_interval": "Check interval (s)"
+        }
+      }
+    },
+    "error": {
+      "already_configured": "A device with this address is already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Frame Control settings",
+        "description": "Change integration parameters.",
+        "data": {
+          "host": "Device address",
+          "port": "ADB port",
+          "device_type": "Device type",
+          "enable_motion": "Motion sensor block",
+          "enable_illuminance": "Illuminance sensor block",
+          "motion_sensor": "Motion sensor",
+          "motion_timeout": "Screen off timeout (s)",
+          "illuminance_sensor": "Illuminance sensor",
+          "lux_min": "Min lux",
+          "lux_max": "Max lux",
+          "brightness_min": "Min brightness",
+          "brightness_max": "Max brightness",
+          "watchdog_enabled": "IP Webcam watchdog",
+          "ipwebcam_port": "IP Webcam port",
+          "watchdog_interval": "Check interval (s)"
+        }
+      }
+    }
+  }
+}
