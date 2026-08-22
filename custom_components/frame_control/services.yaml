@@ -1,0 +1,65 @@
+screen_on:
+  name: Экран вкл
+  description: Включить экран устройства
+
+screen_off:
+  name: Экран выкл
+  description: Выключить экран устройства
+
+set_brightness:
+  name: Яркость
+  description: Установить яркость экрана
+  fields:
+    brightness:
+      name: Яркость
+      description: 0-255
+      required: true
+      selector:
+        number:
+          min: 0
+          max: 255
+          mode: slider
+
+open_url:
+  name: Открыть URL
+  description: Открыть URL на устройстве
+  fields:
+    url:
+      name: URL
+      description: Полный URL
+      required: true
+      selector:
+        text:
+
+open_app:
+  name: Открыть приложение
+  description: Запустить приложение на устройстве
+  fields:
+    package:
+      name: Пакет
+      description: Имя пакета (com.xxx)
+      required: true
+      selector:
+        text:
+
+set_volume:
+  name: Громкость
+  description: Громкость медиа 0-100
+  fields:
+    volume:
+      name: Громкость
+      description: 0-100
+      required: true
+      selector:
+        number:
+          min: 0
+          max: 100
+          mode: slider
+
+reboot:
+  name: Перезагрузка
+  description: Перезагрузить устройство
+
+screenshot:
+  name: Скриншот
+  description: Скриншот экрана устройства
