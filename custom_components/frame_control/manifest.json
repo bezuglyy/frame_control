@@ -1,0 +1,17 @@
+{
+  "domain": "frame_control",
+  "name": "Управление рамкой",
+  "version": "6.0.0",
+  "requirements": [
+    "adb-shell>=0.4.4"
+  ],
+  "codeowners": [
+    "@bezuglyy"
+  ],
+  "documentation": "https://github.com/bezuglyy/frame_control",
+  "issue_tracker": "https://github.com/bezuglyy/frame_control/issues",
+  "iot_class": "local_push",
+  "config_flow": true,
+  "icon": "mdi:monitor",
+  "logo": "logo.png"
+}
